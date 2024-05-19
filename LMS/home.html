@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchanted Pages Library</title>
+    <link rel="stylesheet" href="home.css" type="text/css"/>
+    <link rel="icon" href="icons.png" type="image/png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#home" class="logo"><i class="fas fa-book">&nbsp;Enchanted Pages</i></a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="Search Here" id="search">
+                <label for="search" class="fas fa-search"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#favorites.html" class="fas fa-heart"></a>
+                <a href="#cart.html" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#featured">Featured</a>
+                <a href="#reviews">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#newsletter" class="fas fa-message"></a>
+        <a href="#reviews" class="fas fa-tags"></a>
+        <a href="#contact" class="fas fa-phone"></a>
+    </nav>
+
+    <!-- login form -->
+    <div class="login-form-container">
+        <div id="close-login-btn" class="fa fa-times"></div>
+        <form action="">
+            <h3>SIGN IN</h3>
+            <span>Username</span>
+            <input type="email" class="box" placeholder="Enter your mail id" id="">
+            <span>Password</span>
+            <input type="password" class="box" name="" placeholder="Enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <input type="submit" value="Sign In" class="btn">
+            <p>Forgot password? <a href="#Reset.html">Reset password</a></p>
+            <p>Don't have an account? <a href="#Register.html">Sign Up</a></p>
+        </form>
+    </div>
+
+    
+
+    <!-- home -->
+    <section class="home" id="home">
+
+        <div class="row">
+
+            <div class="content">
+                <h1>ENCHANTED PAGES LIBRARY</h1>
+                <p>Enter a world of adventure with every book. From classics to bestsellers, our library is a magical escape for all ages. Discover where stories come alive and possibilities are endless.</p>
+                <a href="explore.html" class="btn">Explore</a>
+            </div>
+
+            <div class="books-slider">
+
+                <div class="wrapper">
+
+                    <a href="#"><img src="b1.png" alt="book1" id="simg"></a>
+                    <a href="#"><img src="b2.png" alt="book2" id="simg"></a>
+                    <a href="#"><img src="b3.png" alt="book3" id="simg"></a>
+                    <a href="#"><img src="b4.png" alt="book4" id="simg"></a>
+                    <a href="#"><img src="b5.png" alt="book5" id="simg"></a>
+                    <a href="#"><img src="b6.png" alt="book6" id="simg"></a>
+                    <a href="#"><img src="b7.png" alt="book7" id="simg"></a>
+                    <a href="#"><img src="b8.png" alt="book8" id="simg"></a>
+                    <a href="#"><img src="b9.png" alt="book9" id="simg"></a>
+                    <a href="#"><img src="b10.png" alt="book10" id="simg"></a>
+                    <a href="#"><img src="b11.png" alt="book11" id="simg"></a>
+                    <a href="#"><img src="b12.png" alt="book12" id="simg"></a>
+                    <a href="#"><img src="b13.png" alt="book13" id="simg"></a>
+                    <a href="#"><img src="b14.png" alt="book14" id="simg"></a>
+                    <a href="#"><img src="b15.png" alt="book15" id="simg"></a>
+                    
+                </div>
+                
+            </div>
+           
+        </div>
+    </section>
+    
+
+
+    <!-- icons -->
+    <section class="icons-container">
+
+        <div class="icons">
+            <div class="icon-heading">
+                <i class = "fa fa-user-tie"></i>
+                <h3>Membership Validity</h3>
+            </div>
+            <p>Life time Access</p>
+        </div>
+
+        <div class="icons">
+            <div class="icon-heading">
+                <i class = "fas fa-lock"></i>
+                <h3>Secure Payments</h3>
+            </div>
+            <p>Security Assured</p>
+        </div>
+
+        <div class="icons">
+            <div class="icon-heading">
+                <i class = "fas fa-clock"></i>
+                <h3>24/7 Available</h3>
+            </div>
+            <p>Probe anytime</p>
+        </div>
+
+        <div class="icons">
+            <div class="icon-heading">
+                <i class = "fas fa-headphones"></i>
+                <h3>Paper back, audio & e-books</h3>
+            </div>
+            <p>Comfortable for all</p>
+        </div>
+
+    </section>
+
+
+    <!--featured section -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading">
+            <span>FEATURED COLLECTION</span>
+        </h1>
+
+        <div class="featured-slider">
+
+            <button class="pre-btn">&#10094; PRE</button>
+            <button class="nxt-btn">NXT &#10095;</button>
+            
+
+            <div class="wrapper">
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b1.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b2.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b3.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b4.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b5.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b6.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b7.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b8.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b9.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b10.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b11.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b12.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b13.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b14.png" alt="">
+                    </div>
+
+                </div>
+
+                <div class="box">
+
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-check-circle"></a>
+                    </div>
+
+                    <div class="image">
+                        <img src="b15.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter" id="newsletter">
+
+        <form action="">
+            <h3>Subscribe for latest updates</h3>
+            <input type="email" name="" placeholder="Enter your email" id='' class='box'>
+            <input type="submit" value="Subscribe" class="btn">
+        </form>
+
+    </section>
+    
+    <!-- reviews -->
+
+    <section class="reviews" id="reviews">
+
+            <h1 class="heading">
+                <span>Members Voice</span>
+            </h1>
+
+
+            <div class="reviews-slider">
+
+                <div class="wrapper">
+
+                    <div class="box">
+                        <img src="p1.png" alt>
+                        <h3>Marcus Ezekiel</h3>
+                        <p>Fantastic library with a vast collection of books and resources. The staff are incredibly helpful and always ready to assist.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="p2.png" alt>
+                        <h3>Sandy Mitchell</h3>
+                        <p>The inter-library loan system is amazing, allowing access to even more materials. Their reading programs have inspired my love for literature.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <img src="p3.png" alt>
+                        <h3>Catherine Campbell</h3>
+                        <p>Modern facilities and a great selection of digital resources. The children's section is particularly impressive.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Our Locations</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"> </i>Chennai</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> </i>Mumbai</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> </i>Delhi</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> </i>Kolkata</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"> </i>Coimbatore</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"> </i>Home</a>
+                <a href="#featured"> <i class="fas fa-arrow-right"> </i>Featured</a>
+                <a href="#newsletter"> <i class="fas fa-arrow-right"> </i>Newsletter</a>
+                <a href="#reviews"> <i class="fas fa-arrow-right"> </i>Reviews</a>                
+            </div>
+
+            <div class="box" id="contact">
+                <h3>Contact info</h3>
+                <a href="#"> <i class="fas fa-phone"> </i>7558125690</a>
+                <a href="#"> <i class="fas fa-phone"> </i>7558025690</a>  
+                <a href="#"> <i class="fas fa-envelope"> </i>enchantedpageslibrary@gmail.com</a>             
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+
+        <div class="credit">
+            created by <span>Sherin Joys Catherina</span> | all rights reserved!
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

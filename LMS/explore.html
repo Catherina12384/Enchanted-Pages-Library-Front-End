@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchanted Pages Library</title>
+    <link rel="stylesheet" href="explore.css" type="text/css"/>
+    <link rel="icon" href="icons.png" type="image/png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#home" class="logo"><i class="fas fa-book">&nbsp;Enchanted Pages</i></a>
+            <a href="home.html" class="close-btn"><i class="fas fa-close"></i></a>
+        </div>
+
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="home.html#home">Home</a>
+                <a href="home.html#featured">Featured</a>
+                <a href="home.html#reviews">Review</a>
+                <a href="home.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="bottom-navbar">
+        <a href="home.html#home" class="fas fa-home"></a>
+        <a href="home.html#featured" class="fas fa-list"></a>
+        <a href="home.html#newsletter" class="fas fa-message"></a>
+        <a href="home.html#reviews" class="fas fa-tags"></a>
+        <a href="home.html#contact" class="fas fa-phone"></a>
+    </nav>
+
+    <div class="container">
+        <h1 class="heading"><span>EXPLORE</span></h1>
+
+        <div class="filters">
+          <input type="text" id="titleFilter" placeholder="Filter by Title">
+          <input type="text" id="authorFilter" placeholder="Filter by Author">
+          <input type="text" id="subjectFilter" placeholder="Filter by Subject">
+          <input type="date" id="publishDateFilter">
+        </div>
+        <div class="book-box">
+            <div id="bookList"></div>
+        </div>
+        
+        <div id="pagination"></div>
+      </div>
+
+      <script src="activity.js"></script>
+</body>
+</html>
