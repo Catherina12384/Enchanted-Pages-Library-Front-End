@@ -15,6 +15,7 @@ A simple reponsive library management page where
 https://github.com/Catherina12384/Enchanted-Pages-Library-Front-End/assets/150625807/bfd4563d-27c4-40ae-b669-46512f150cb4
 
 #### **Resolution might be low due to compression of video.
+#### *All features are compatible wth Microscoft Edge.
 
 
 
